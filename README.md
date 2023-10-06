@@ -1,4 +1,4 @@
-# AlphaZero-Julia
+# AlphaZero Julia
 AlphaZero Julia erfordert eine NVIDIA Grafikkarte und folgend Bibliotheken:
 
 -	**FLUX**	- Neuronales Netzwerk
