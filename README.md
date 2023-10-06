@@ -1,7 +1,7 @@
 # AlphaZero-Julia
 AlphaZero Julia erfordert eine NVIDIA Grafikkarte und folgend Bibliotheken:
 
--	**FLUX**	- Neuronales Netzwerkhttps://github.com/SlimmerCH/AlphaZero-Julia/actions
+-	**FLUX**	- Neuronales Netzwerk
 -	**CUDA** - Grafikkarten-Rechnungen
 -	**BSON** - Speichern und laden der Parameter
 -	**ProgressMeter** -	Anzeigen des Fortschrittes
@@ -15,4 +15,6 @@ Möglicherweise läuft das Programm auch auf AMD-Grafikkarten mit der AMDGPU Bib
 
 - Das Training kann mit **train.jl** gestartet werden.
 
-- Das Experiment in Kapitel 5.1 kann mithilfe **performance.jl** reproduziert werden.
+- Das Experiment in Kapitel 5.1 kann in **performance.jl** reproduziert werden.
+
+- Es kann gegen die KI mithilfe **humanvsai.jl** gespielt werden.
