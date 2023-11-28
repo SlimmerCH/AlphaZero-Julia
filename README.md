@@ -1,9 +1,9 @@
 # AlphaZero Julia
 AlphaZero Julia erfordert eine NVIDIA Grafikkarte und folgend Bibliotheken:
 
--	**FLUX**	- Neuronales Netzwerk
--	**CUDA** - Grafikkarten-Rechnungen
--	**BSON** - Speichern und laden der Parameter
+-	**Flux**	- Neuronales Netzwerk
+-	**CUDA** und **cuDNN** - Grafikkarten-Rechnungen
+-	**BSON** und **FileIO** - Speichern und laden der Parameter
 -	**ProgressMeter** -	Anzeigen des Fortschrittes
 -	**Plots**	- Darstellung der Policy mit Diagrammen
 
