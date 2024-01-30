@@ -4,7 +4,7 @@ module node
     export Node, set_state_data_type, is_leaf, expand_node, get_QU
 
     # Data type of the game states
-    global state_data_type::DataType = Any
+    state_data_type = Any
 
     mutable struct Node
 

@@ -6,7 +6,7 @@ module mcts
     include("node.jl")
     using .node
 
-    use_state_for_eval::Bool = true
+    use_state_for_eval = true
 
     mutable struct MCTS
 

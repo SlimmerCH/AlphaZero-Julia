@@ -7,6 +7,7 @@ AlphaZero Julia erfordert eine NVIDIA Grafikkarte und folgend Bibliotheken:
 -	**ProgressMeter** -	Anzeigen des Fortschrittes
 -	**Plots**	- Darstellung der Policy mit Diagrammen
 
+Die Bibliotheken können mithilfe von **dependencies.jl** installiert werden.
 Möglicherweise läuft das Programm auch auf AMD-Grafikkarten mit der AMDGPU Bibliothek.
 
 #### Nutzung der KI

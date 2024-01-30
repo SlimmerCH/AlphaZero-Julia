@@ -142,7 +142,7 @@ function prepare(lr=0)
 
     @info "Preparing neural network"
 
-    println("  - Preparing topologie...\t[1/2]")
+    println("  - Preparing topology...\t[1/2]")
 
     nn = NeuralNetwork(dimension, in_channels, hidden_layer_size, resblocks, policy_outputs)
 
